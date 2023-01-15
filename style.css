@@ -1,0 +1,128 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.main-container{
+    margin:45px auto;
+    width:85vw;
+   
+    
+   
+    top:10px;
+}
+
+.section1{
+    height:35%;
+    width:55%;
+    text-align: center;
+   
+margin:0 auto;
+
+
+}
+
+.section1>h2:first-child{
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
+}
+.section1>h2:last-child{
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+.section1>p{
+    font-size: 13px;
+    padding:5px 65px;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+}
+/* ------bottom-section------ */
+.bottom-section{
+    display: flex;
+    /* margin:20px; */
+    justify-content:center;
+}
+.card{
+    box-sizing: border-box;
+ box-shadow: 5px 10px 15px hsl(229, 6%, 66%);
+    height:170px;
+    width:280px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+.first-section{
+    position: relative;
+    top:100px;
+}
+.cards>.card{
+    margin-top: 20px;
+}
+.third-section{
+    position: relative;
+    top:100px;
+}
+h3{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 10px;
+    color: hsl(234, 12%, 34%);
+}
+p{
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 10px;
+    color: hsl(229, 6%, 66%);
+}
+img{
+    float: right;
+    padding-top: 15px;
+}
+.first-section>.card{
+    border-top: 4px solid  hsl(180, 62%, 55%);
+}
+.second-section>.cards>.card:nth-child(1){
+    border-top: 4px solid  hsl(0, 78%, 62%);
+}
+.second-section>.cards>.card:last-child{
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+.third-section>.card{
+    border-top:4px solid hsl(212, 86%, 64%);
+}
+
+/* h6{
+    background-color: hsl(234, 12%, 34%) ;  
+    background-color:hsl(229, 6%, 66%) ; 
+    background-color: hsl(0, 0%, 98%);  
+    background-color: ; */
+
+@media screen and (max-width:823px) {
+    .section1{
+        margin:10px auto;
+    }
+    .bottom-section{
+        margin:auto;
+        display: flex;
+        flex-direction: column;
+        /* background-color: aqua; */
+    }
+    .first-section{
+        position: relative;
+        top:0px;
+    }
+    .third-section{
+        position: relative;
+        top:0px;
+    }
+    .section1>p{
+        
+        padding:5px 25px;
+       
+    }
+}
